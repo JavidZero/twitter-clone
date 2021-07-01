@@ -1,0 +1,19 @@
+.widgets {
+  max-width: 300px;
+  overflow-x: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.control-span {
+  min-width: 400px;
+  height: 20px;
+  background-color: black;
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .widgets {
+    display: none;
+  }
+}
