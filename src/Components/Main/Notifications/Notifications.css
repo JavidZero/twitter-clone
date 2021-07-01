@@ -1,0 +1,45 @@
+.notifications {
+  width: 100%;
+}
+
+.notifications__header {
+  width: 100%;
+  min-height: 5rem;
+}
+
+.notifications__header-head {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notifications__header-head > h3 {
+  text-transform: capitalize;
+}
+
+.notifications__header-head > .MuiSvgIcon-root {
+  color: var(--twitter-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.notifications__header-links {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.notifications__header-links > a {
+  flex: 0.5;
+  text-align: center;
+  padding: 1rem;
+  text-transform: capitalize;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.notifications__header-links > a:hover {
+  background-color: #f2f2f8;
+}

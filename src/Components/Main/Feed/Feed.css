@@ -1,0 +1,36 @@
+.feed {
+  width: 100%;
+  height: 100vh;
+}
+
+.feed__header {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--twitter-background);
+
+  position: sticky;
+  z-index: 50;
+  top: 0;
+  background-color: white;
+}
+
+.feed__header > h3 {
+  text-transform: capitalize;
+}
+
+.feed__header > .MuiSvgIcon-root {
+  color: var(--twitter-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.feed__posts {
+  width: 100%;
+  background-color: white;
+  display: block;
+  border-top: 5px solid var(--twitter-background);
+}

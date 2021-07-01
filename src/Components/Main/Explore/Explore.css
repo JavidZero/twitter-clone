@@ -1,0 +1,53 @@
+.explore {
+  width: 100%;
+  background-color: white;
+}
+
+.explore__header {
+  height: 5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  position: sticky;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.explore__header > .MuiSvgIcon-root {
+  font-size: 2rem;
+  color: var(--twitter-color);
+}
+
+.explore__searchForm > .MuiSvgIcon-root {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 2rem;
+}
+
+.explore__searchForm {
+  width: calc(100% - 4rem);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.7rem 1rem;
+  border-radius: 3rem;
+  border: 1px solid transparent;
+}
+
+.explore__searchForm input {
+  border: none;
+  background-color: transparent;
+  width: calc(100% - 5rem);
+  font-size: 1.4rem;
+}
+
+.explore__searchForm:focus-within {
+  border: 1px solid var(--twitter-color);
+  background-color: white;
+}
+
+.explore__searchForm:focus-within > .MuiSvgIcon-root {
+  color: var(--twitter-color);
+}

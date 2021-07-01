@@ -1,0 +1,43 @@
+.lists {
+  width: 100%;
+}
+
+.lists__header {
+  height: 5rem;
+  border-bottom: 1px solid var(--twitter-background);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.lists__header > .MuiSvgIcon-root {
+  font-size: 2rem;
+  color: var(--twitter-color);
+  cursor: pointer;
+}
+
+.lists__header > .MuiSvgIcon-root:hover {
+  background-color: #f2f2f8;
+  border-radius: 50%;
+}
+
+.lists__name {
+  margin-right: auto;
+}
+
+.lists__name > h3 {
+  text-transform: capitalize;
+}
+
+.lists__name > p {
+  font-size: 1.4rem;
+}
+
+.lists__pinned > h3 {
+  text-transform: capitalize;
+  padding: 1rem;
+  border-bottom: 1px solid #f2f2f8;
+}

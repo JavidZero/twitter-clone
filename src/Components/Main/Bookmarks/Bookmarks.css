@@ -1,0 +1,18 @@
+.bookmarks {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.bookmarks__header {
+  height: 5rem;
+}
+
+.bookmarks__header > h3 {
+  text-transform: capitalize;
+}
+
+.bookmarks__header > p {
+  color: gray;
+  font-size: 1.4rem;
+}
